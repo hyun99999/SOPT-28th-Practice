@@ -11,7 +11,7 @@ class SecondViewController: UIViewController {
 
     @IBOutlet weak var textLabel: UILabel!
     //옵셔널 변수로 선언.
-    var message : String!
+    var message : String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
