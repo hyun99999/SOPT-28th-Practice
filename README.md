@@ -16,6 +16,10 @@
 - ScrollView
 > https://www.notion.so/iOS-2-649f628817be4bceb04f429c3ae35905
 
-3주차 - 
+3주차 - practice-seminar3
+- 데이터전달
+- tableView
+- collectionView
+https://www.notion.so/iOS-3-0f37f8ed6fb7493e8e13e8be81d86870
 
 4주차 - 
