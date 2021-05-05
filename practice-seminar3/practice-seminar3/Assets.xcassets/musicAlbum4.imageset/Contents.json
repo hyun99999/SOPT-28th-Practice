@@ -2,18 +2,18 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "musicAlbum4.png"
+      "filename" : "musicAlbum4.png",
+      "scale" : "1x"
+    },
+    {
+      "scale" : "2x",
+      "filename" : "musicAlbum4@2x.png",
+      "idiom" : "universal"
     },
     {
       "idiom" : "universal",
-      "filename" : "musicAlbum4@2x.png",
-      "scale" : "2x"
-    },
-    {
       "filename" : "musicAlbum4@3x.png",
-      "scale" : "3x",
-      "idiom" : "universal"
+      "scale" : "3x"
     }
   ],
   "info" : {

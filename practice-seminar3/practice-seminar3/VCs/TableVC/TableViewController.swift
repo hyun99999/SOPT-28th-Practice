@@ -75,6 +75,11 @@ extension TableViewController: UITableViewDataSource {
         
         cell.setData(iconImageName: serviceList[indexPath.row].iconImageName, title: serviceList[indexPath.row].title, subTitle: serviceList[indexPath.row].subtitle)
         
+        //이렇게 접근하면 안됨.
+//        cell.iconImageView.image = UIImage(named: serviceList[indexPath.row].iconImageName)
+//        cell.titleLabel.text = UIImage(named: serviceList[indexPath.row].title)
+//        cell.subTitleLabel.text = UIImage(named: serviceList[indexPath.row].subtitle)
+        
         return cell
     }
 }

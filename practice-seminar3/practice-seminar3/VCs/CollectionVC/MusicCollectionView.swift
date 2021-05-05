@@ -19,7 +19,7 @@ class MusicCollectionView: UIViewController {
         
         setMusicList()
         
-        musicCollectionView.register(MusicCollectionViewCell.self, forCellWithReuseIdentifier: "MusicCollectionViewCell")
+//        musicCollectionView.register(MusicCollectionViewCell.self, forCellWithReuseIdentifier: "MusicCollectionViewCell")
         
         musicCollectionView.delegate = self
         musicCollectionView.dataSource = self
@@ -58,8 +58,7 @@ extension MusicCollectionView : UICollectionViewDataSource
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        guard let musicCell = collectionView.dequeueReusableCell(withReuseIdentifier: MusicCollectionViewCell.identifier,
-                                                                 for: indexPath)
+        guard let musicCell = collectionView.dequeueReusableCell(withReuseIdentifier: MusicCollectionViewCell.identifier, for: indexPath)
                 as? MusicCollectionViewCell
         else {return UICollectionViewCell() }
         
