@@ -20,6 +20,6 @@
 - 데이터전달
 - tableView
 - collectionView
-https://www.notion.so/iOS-3-0f37f8ed6fb7493e8e13e8be81d86870
+> https://www.notion.so/iOS-3-0f37f8ed6fb7493e8e13e8be81d86870
 
 4주차 - 
