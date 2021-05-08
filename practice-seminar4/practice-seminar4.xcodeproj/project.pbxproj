@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,14 @@
 		F846E6DA2643D5CB0084049E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F846E6D82643D5CB0084049E /* Main.storyboard */; };
 		F846E6DC2643D5CC0084049E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F846E6DB2643D5CC0084049E /* Assets.xcassets */; };
 		F846E6DF2643D5CC0084049E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F846E6DD2643D5CC0084049E /* LaunchScreen.storyboard */; };
+		F8564902264668CD003C0EC6 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8564901264668CD003C0EC6 /* NetworkResult.swift */; };
+		F856490426466979003C0EC6 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F856490326466979003C0EC6 /* DataModel.swift */; };
+		F856490626466DB7003C0EC6 /* GetPersonDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F856490526466DB7003C0EC6 /* GetPersonDataService.swift */; };
+		F8564908264673D4003C0EC6 /* APIContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8564907264673D4003C0EC6 /* APIContents.swift */; };
+		F856490B264674F4003C0EC6 /* LoginDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F856490A264674F4003C0EC6 /* LoginDataModel.swift */; };
+		F856490D2646759D003C0EC6 /* GetLoginDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F856490C2646759D003C0EC6 /* GetLoginDataService.swift */; };
+		F856490F264675DF003C0EC6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F856490E264675DF003C0EC6 /* LoginViewController.swift */; };
+		F856491226467712003C0EC6 /* UIViewController + makeAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F856491126467712003C0EC6 /* UIViewController + makeAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +36,14 @@
 		F846E6DB2643D5CC0084049E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F846E6DE2643D5CC0084049E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F846E6E02643D5CC0084049E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8564901264668CD003C0EC6 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		F856490326466979003C0EC6 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		F856490526466DB7003C0EC6 /* GetPersonDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPersonDataService.swift; sourceTree = "<group>"; };
+		F8564907264673D4003C0EC6 /* APIContents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIContents.swift; sourceTree = "<group>"; };
+		F856490A264674F4003C0EC6 /* LoginDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataModel.swift; sourceTree = "<group>"; };
+		F856490C2646759D003C0EC6 /* GetLoginDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetLoginDataService.swift; sourceTree = "<group>"; };
+		F856490E264675DF003C0EC6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F856491126467712003C0EC6 /* UIViewController + makeAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + makeAlert.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +64,6 @@
 				491182B0E895363EBD23EBCB /* Pods-practice-seminar4.debug.xcconfig */,
 				204A2E60659BABCC49C19B86 /* Pods-practice-seminar4.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,15 +96,95 @@
 		F846E6D12643D5CB0084049E /* practice-seminar4 */ = {
 			isa = PBXGroup;
 			children = (
-				F846E6D22643D5CB0084049E /* AppDelegate.swift */,
-				F846E6D42643D5CB0084049E /* SceneDelegate.swift */,
-				F846E6D62643D5CB0084049E /* ViewController.swift */,
-				F846E6D82643D5CB0084049E /* Main.storyboard */,
+				F85648FA26464E93003C0EC6 /* Source */,
+				F85648F926464E8C003C0EC6 /* Resource */,
 				F846E6DB2643D5CC0084049E /* Assets.xcassets */,
 				F846E6DD2643D5CC0084049E /* LaunchScreen.storyboard */,
 				F846E6E02643D5CC0084049E /* Info.plist */,
 			);
 			path = "practice-seminar4";
+			sourceTree = "<group>";
+		};
+		F85648F926464E8C003C0EC6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F856490026464EE2003C0EC6 /* Storyboards */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F85648FA26464E93003C0EC6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F8564910264676F8003C0EC6 /* Extensions */,
+				F85648FF26464ED2003C0EC6 /* VCs */,
+				F85648FD26464EB6003C0EC6 /* Cells */,
+				F85648FC26464EB1003C0EC6 /* Models */,
+				F85648FB26464EA0003C0EC6 /* Network */,
+				F846E6D42643D5CB0084049E /* SceneDelegate.swift */,
+				F846E6D22643D5CB0084049E /* AppDelegate.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F85648FB26464EA0003C0EC6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F85649092646746F003C0EC6 /* Services */,
+				F8564901264668CD003C0EC6 /* NetworkResult.swift */,
+				F8564907264673D4003C0EC6 /* APIContents.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F85648FC26464EB1003C0EC6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F856490326466979003C0EC6 /* DataModel.swift */,
+				F856490A264674F4003C0EC6 /* LoginDataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F85648FD26464EB6003C0EC6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F85648FF26464ED2003C0EC6 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				F846E6D62643D5CB0084049E /* ViewController.swift */,
+				F856490E264675DF003C0EC6 /* LoginViewController.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		F856490026464EE2003C0EC6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F846E6D82643D5CB0084049E /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F85649092646746F003C0EC6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F856490526466DB7003C0EC6 /* GetPersonDataService.swift */,
+				F856490C2646759D003C0EC6 /* GetLoginDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F8564910264676F8003C0EC6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F856491126467712003C0EC6 /* UIViewController + makeAlert.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,9 +301,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F856490426466979003C0EC6 /* DataModel.swift in Sources */,
 				F846E6D72643D5CB0084049E /* ViewController.swift in Sources */,
+				F8564908264673D4003C0EC6 /* APIContents.swift in Sources */,
+				F856490B264674F4003C0EC6 /* LoginDataModel.swift in Sources */,
 				F846E6D32643D5CB0084049E /* AppDelegate.swift in Sources */,
 				F846E6D52643D5CB0084049E /* SceneDelegate.swift in Sources */,
+				F8564902264668CD003C0EC6 /* NetworkResult.swift in Sources */,
+				F856490626466DB7003C0EC6 /* GetPersonDataService.swift in Sources */,
+				F856490F264675DF003C0EC6 /* LoginViewController.swift in Sources */,
+				F856491226467712003C0EC6 /* UIViewController + makeAlert.swift in Sources */,
+				F856490D2646759D003C0EC6 /* GetLoginDataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
