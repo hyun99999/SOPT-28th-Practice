@@ -46,8 +46,6 @@ class MusicCollectionView: UIViewController {
                            singer: "Futuristic Swaver")
         ])
     }
-    
-    
 }
 
 
