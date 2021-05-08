@@ -22,4 +22,6 @@
 - collectionView
 > https://www.notion.so/iOS-3-0f37f8ed6fb7493e8e13e8be81d86870
 
-4주차 - 
+4주차 - practice-seminar4
+- alamofire
+> https://www.notion.so/iOS-4-789b366a25ea40409239a83e702a18aa
