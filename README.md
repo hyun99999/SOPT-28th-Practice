@@ -7,21 +7,25 @@
   - H.I.G
   - 화면 전환
   - 데이터 전달 기초
-> https://www.notion.so/iOS-1-dd9001509db4450fbbc912d58fddf9af
+> [세미나자료](https://potent-piccolo-507.notion.site/1-ecb132deef5842c5a27f6c8faa199cbc)
 
 2주차 - practice-seminar2
 - Layout
 - Zeplin, Figma
 - StackView
 - ScrollView
-> https://www.notion.so/iOS-2-649f628817be4bceb04f429c3ae35905
+> [세미나자료](https://potent-piccolo-507.notion.site/2-88eb1ea6bd4b4396bd56b244f62a41fe)
 
 3주차 - practice-seminar3
 - 데이터전달
 - tableView
 - collectionView
-> https://www.notion.so/iOS-3-0f37f8ed6fb7493e8e13e8be81d86870
+> [세미나자료](https://potent-piccolo-507.notion.site/3-9c1a8affa1424ce0af215ec910471a7b)
 
 4주차 - practice-seminar4
 - alamofire
-> https://www.notion.so/iOS-4-789b366a25ea40409239a83e702a18aa
+- 서버통신
+> [세미나자료](https://potent-piccolo-507.notion.site/4-de77fa62d4b2419cb68da399e6a55ab9)
+
+---
+출처 : SOPT 28기 iOS 파트 세미나 과정 중
