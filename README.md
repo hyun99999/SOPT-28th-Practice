@@ -27,5 +27,11 @@
 - 서버통신
 > [세미나자료](https://potent-piccolo-507.notion.site/4-de77fa62d4b2419cb68da399e6a55ab9)
 
+7주차 - practice-seminar7
+- lottie
+- animation
+> [세미나자료](https://potent-piccolo-507.notion.site/7-d8cd708b2ff745489d2f7e2b12f0470d)
+
 ---
+
 출처 : SOPT 28기 iOS 파트 세미나 과정 중
